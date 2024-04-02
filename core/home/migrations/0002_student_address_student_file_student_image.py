@@ -5,6 +5,8 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
 
+
+# if current migration file is dependent on another migration file 
     dependencies = [
         ('home', '0001_initial'),
     ]

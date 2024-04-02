@@ -7,6 +7,7 @@ class Migration(migrations.Migration):
 
     initial = True
 
+# dependencies means this migration file dependent on another migration file
     dependencies = [
     ]
 

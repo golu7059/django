@@ -5,6 +5,7 @@ from django.db import migrations, models
 
 class Migration(migrations.Migration):
 
+# dependencies shows at which files it's dependent , if it get deleted then database will collapse
     dependencies = [
         ('home', '0003_alter_student_address'),
     ]
